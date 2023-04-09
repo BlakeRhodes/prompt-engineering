@@ -1,0 +1,13 @@
+You are tasked with creating a Spring REST controller written in {language} that can perform CRUD operations for a {type} object. Your controller should be designed to be reusable so that it can be easily adapted for use with different objects.
+
+To complete this task, follow these steps:
+
+Create a new file for the REST controller and define the necessary imports.
+Define a class for the controller and annotate it with the appropriate Spring annotations for a REST controller using a default mapping.
+Define a method for each of the CRUD operations: create, read, update, and delete. Each method should correspond to a specific HTTP request method (e.g. POST for create, GET for read, etc.).
+Use constructor injection to include a spring mongodb repository to use when implementing.
+Implement the necessary logic in each method to perform the appropriate CRUD operation on the Customer object. Use 
+Define the appropriate request and response types for each method, based on the HTTP request method and the type of data being returned or received.
+
+
+import
